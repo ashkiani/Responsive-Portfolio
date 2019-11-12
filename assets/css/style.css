@@ -165,11 +165,11 @@ footer{
   }
   .NameEmail,.Message{
 
-    width: 350px;
+    width: 230px;
   }
   #Header_Name{
     margin-left: 0;
   }
-  p{clear: left;}
-  
+  p{clear: left;width: 210px;}
+  .Main_Section{width: 250px;height: 100%;}
 }
