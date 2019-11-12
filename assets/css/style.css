@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background:lightgray;
+  
+}
+section{
+  width: 960px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+
+header{
+  padding: 10px;
+  background: #ffffff;
+   border: 2px solid #cccccc; 
+}
+#Header_Name{
+  float:left;
+  padding:7.5px;
+  vertical-align: middle;
+  color: white;
+  background-color: #4aaaa5;
+}
+#Header_NavBar{
+  
+  
+  vertical-align: middle;
+  
+  
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}    
+li a:hover {
+    background-color: #111;
+}
+.Main_Section{
+  height: 530px;
+  margin: 20px auto;
+  background-color: white;
+  overflow: hidden;
+  background-image: url('assets/images/img_bckgrnd.png');
+}
+img{
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+p{
+  
+  margin: 10px 0 5px 10px;
+}
+.Main_Title{
+  color: #4aaaa5;
+  margin:20px;
+}
+footer{
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  height: 50px;
+  border-top: 10px solid #4aaaa5;
+}
+
+.NameEmail,.Message,.button{
+  margin: 0 0 0 10px;
+  
+}
+.NameEmail,.Message{
+
+  width: 930px;
+}
+
+
+.Message{
+  height: 100px;
+}
+.button{
+  margin: 10px;
+  color: white;
+  background-color: #4aaaa5;
+  width: 100px;
+}
