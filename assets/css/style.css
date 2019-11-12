@@ -124,10 +124,32 @@ footer{
 
     background-color: green;
   }
+  section{
+    width:600px;
+   
+  }
+  .NameEmail,.Message{
+
+    width: 570px;
+  }
+  .Main_Section{
+    margin-left: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   body {
     background-color: orange;
+  }
+  section{
+    width:630px;
+   
+  }
+  .NameEmail,.Message{
+
+    width: 600px;
+  }
+  .Main_Section{
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -137,4 +159,17 @@ footer{
   body {
     background-color: red;
   }
+  section{
+    width:450px;
+   
+  }
+  .NameEmail,.Message{
+
+    width: 350px;
+  }
+  #Header_Name{
+    margin-left: 0;
+  }
+  p{clear: left;}
+  
 }
