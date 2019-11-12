@@ -115,6 +115,7 @@ footer{
   }
   .Main_Section{
     margin-left: 50px;
+    height: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -131,6 +132,7 @@ footer{
   }
   .Main_Section{
     margin-left: 10px;
+    height: 100%;
   }
 }
 @media screen and (max-width: 640px) {
